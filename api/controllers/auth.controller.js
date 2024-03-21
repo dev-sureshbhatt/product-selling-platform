@@ -1,4 +1,6 @@
 export const signup = (req, res) => {
-    const {dislpayName, email, password} = req.body
+    const {email, password} = req.body
+    console.log(req.body)
+    res.json({"msg": "working"})
 
 }
